@@ -183,7 +183,7 @@ background-size: cover;
     margin-top:50px;
 } 
 
-@media (max-width: 480px){
+@media (max-width: 500px){
     .tab2 .nav-tabs li a{
         margin-top:0;
     }  
