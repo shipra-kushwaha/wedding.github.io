@@ -161,11 +161,13 @@ background-size: cover;
 .tab2 .nav-tabs{
     background-image: url(../images/bg3.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     width:100%;
     height:25vh;
 }
-
+.tab2 .nav-tabs li{
+    width:170px!important;
+    height:150px;
+}
 
 .tab2 .nav-tabs li:hover{
     transition: 0.5s;
@@ -180,6 +182,55 @@ background-size: cover;
     align-items: center;
     margin-top:50px;
 } 
+
+@media (max-width: 480px){
+    .tab2 .nav-tabs li a{
+        margin-top:0;
+    }  
+   .tab2 .nav-tabs li{
+        width:55px!important;
+        height:55px!important;
+    } 
+
+    .tab1 .nav-tabs li{
+        width:55px!important;
+        height:55px!important; 
+    }
+
+    .tab1 .nav-tabs li a h6{
+        font-size:5px;
+    }
+
+    
+.tab1 .nav-tabs li a{
+    background: transparent!important;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin-top:0px;
+} 
+
+
+.tab1 .tab-content .my_wed{
+    background: var(--white);
+    position: absolute;
+    text-align:center!important;
+    margin-top:150px!important;
+}
+
+.tab1 .tab-content p{
+
+    margin-top:250px!important;
+}
+    .tab2 .nav-tabs li a h6{
+        font-size:9px;
+
+    }  
+
+    .tab2 .tab-content h4, p{
+      text-align:center!important;
+    }
+}
 
 /*end tab2 here*/
 
