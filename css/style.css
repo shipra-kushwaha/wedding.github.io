@@ -170,10 +170,10 @@ background-size: cover;
     height:150px;
 }
 
-@media(width:500px){
+@media screens(width:500px){
 .tab2 .nav-tabs li{
     width:120px!important;
-    height:100px;
+    height:100px!important;
 }
 }
 
