@@ -175,6 +175,12 @@ background-size: cover;
     width:80px!important;
     height:80px!important;
 }
+    
+    
+.tab2 .nav-tabs{
+    width:100%;
+    height:auto;
+}
 }
 
 .tab2 .nav-tabs li:hover{
