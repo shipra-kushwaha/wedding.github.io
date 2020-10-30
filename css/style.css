@@ -170,6 +170,13 @@ background-size: cover;
     height:150px;
 }
 
+@media(width:500px){
+.tab2 .nav-tabs li{
+    width:120px!important;
+    height:100px;
+}
+}
+
 .tab2 .nav-tabs li:hover{
     transition: 0.5s;
     background: var(--tabhov);
